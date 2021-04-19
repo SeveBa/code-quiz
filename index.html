@@ -9,30 +9,46 @@
 </head>
 
 <body>
-    <h3 class="scores">View high scores</h3>
-
+    <!-- Header contains High Scores and Time Counter -->
+    <header>
         <div>
-            <h3 class="time-counter">Time</h3>
+        <h3 class="scores-list" id="scores">View high scores</h3>
         </div>
 
-    <section>
         <div>
-            <div>
-            <h1>Coding Quiz</H1>
-            </div>
+        <h3 class="timer-function" id="timer">Time</h3>
+        </div>
+    
+    </header>
 
-                <div>
+    <!-- Initiate Quiz / Questions & Ansers Displayed -->
+        
+        <section class="hide">
+            <div>
+                <div class = container>
+                <h1 class="text-center">Coding Quiz</H1>
+                </div>
+
+                <div class="text-center">
                     <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
                 </div>
 
-                <div>
-                    <button class="btn" id="quiz-init" type="submit">Start Quiz</button>
+                <div class="text-center">
+                    <button class="btn btn-primary" id="quiz-init" type="click">Start Quiz</button>
                 </div>
-        </div>
+            </div>
+        </section>
+   
 
-    </section>
+
+    <!-- Correct/Wrong display of question result -->
     
 
     <script src="./assets/js/script.js"></script>
 </body>
+
+<footer>
+    "How do I do this?" -Seve Barrutia
+  </footer>
+
 </html>

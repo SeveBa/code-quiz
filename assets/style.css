@@ -1,0 +1,46 @@
+/* Every element = no margin or border unless explicitly told so */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ignore padding in the over width */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header & Footer Styling */
+
+header {
+  padding: 50px 75px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+  background: #fefefe;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+  padding: 0 100px 20px 100px;
+}
+
+
